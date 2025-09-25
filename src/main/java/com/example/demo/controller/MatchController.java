@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/matches")
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 public class MatchController {
     @Autowired
     private MatchService matchService;
