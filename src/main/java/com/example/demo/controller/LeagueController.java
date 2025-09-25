@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/leagues")
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 public class LeagueController {
 
     @Autowired
