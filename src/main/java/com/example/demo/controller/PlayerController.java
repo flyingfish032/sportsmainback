@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/players")
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 public class PlayerController {
     @Autowired
     private PlayerService playerService;
